@@ -11,11 +11,11 @@ const App = () => {
     <div className="boxes">
       <div className="box">
         <Header />
-        <AddedFeatures car={props.car} />
+        <AddedFeatures />
       </div>
       <div className="box">
-        <AdditionalFeatures additionalFeatures={props.additionalFeatures} />
-        <Total car={props.car} additionalPrice={props.additionalPrice} />
+        <AdditionalFeatures />
+        <Total />
       </div>
     </div>
   );
